@@ -70,7 +70,6 @@ void trainer_card_print_money(void);
 void trainer_card_print_dex(void);
 void trainer_card_print_friend(void);
 void box_print(u8, u8, u8, u8, u32, u8, u8 *);
-
 void trainer_card_task(u8);
 u8 task_add(void(*)(u8), u8);
 void sub_808B774(void);

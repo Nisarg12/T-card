@@ -14,4 +14,6 @@
 ######5. Change the pointers at the following offsets:    
 3A7360: pointer to offset of inserting main.bin + 0x71.   
 3CD914: pointer to offset of inserting main.bin + 0x6F1.    
-Example: I insert main.bin at 0x800000 so I write 71 00 80 08 and F1 06 80 08.
+Example: I insert main.bin at 0x800000 so I write 71 00 80 08 and F1 06 80 08.   
+   
+###Credits: knizz, Coranac

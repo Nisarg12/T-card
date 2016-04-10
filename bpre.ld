@@ -62,8 +62,6 @@ trainer_card_print_money = 0x8089FED;
 trainer_card_print_dex = 0x808A101;
 trainer_card_print_friend = 0x808A3D1;
 box_print = 0x812E51D;
-
-
 trainer_card_print_time = 0x808A22D;
 trainer_card_check_badges = 0x8089A95;
 trainer_card_load_strings = 0x8089ECD;

@@ -161,12 +161,6 @@ u8 * byte_83CD95C = (u8 *) 0x83CD95C;
 u8 * tile_egg = (u8 *) 0x8E7BB88;
 u8 * tile_egg2 = (u8 *) 0x8E7BD88;
 u8 * unk_83CD888 = (u8 *) 0x83CD888;
-//pointer: 3a7360,3CD914
-//8A028: 9A
-//8A144: 98
-//3CD930: 45
-//3CD932: 57
-//3CD934: 5C
 
 /*arrays*/
 const struct rbox_short rbox_cfg[4] __attribute__((aligned(4))) = 
