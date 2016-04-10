@@ -55,18 +55,20 @@ struct obj_affine
     s16 pd;
 };
 
+struct rbox_short
+{
+	u8 bg_id;
+	u8 x;
+	u8 y;
+	u8 w;
+	u8 h;
+	u8 unk;
+	u16 vram_tileset_offset;
+};
+
 struct rbox
 {
-	struct rbox_short
-	{
-		u8 bg_id;
-		u8 x;
-		u8 y;
-		u8 w;
-		u8 h;
-		u8 unk;
-		u16 vram_tileset_offset;
-	};
+	struct rbox_short rboxshort;
 	u32 pixels;
 };
 
